@@ -1,0 +1,44 @@
+.containerfirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    width: 25vh;
+    height: 25vh;
+    background-color: gray;
+    border-radius: 2vh;
+}
+
+.displayScreen {
+
+    
+    width: 15vh;
+    height: 1vh;
+    padding-top: 1vh;
+    border-color: darkgray;
+}
+
+.buttonsCalculation {
+    display: grid;
+    padding-left: 0.5vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.5vh;
+    height: auto;
+}
+
+.buttonsCalculation button {
+    width: 5vh;
+    height: 5vh;
+}
+
+#enterButton {
+    grid-row: span 2;
+    height: 100%;
+    align-self: stretch;
+}
+#clearButton {
+    grid-column: span 3;
+    width: 100%;
+}
